@@ -33,6 +33,7 @@
     "helmet": "^3.14.0",
     "materialize-css": "^1.0.0-rc.2",
     "method-override": "^3.0.0",
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.4",
+    "three": "^0.97.0"
   }
 }
