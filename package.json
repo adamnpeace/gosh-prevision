@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "10.11.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adamnpeace/gosh-20.git"
