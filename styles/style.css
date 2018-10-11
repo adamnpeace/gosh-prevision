@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+ .title-text {
+   color: #FAFAFA;
+ }
  .header {
    font-family: 'Inconsolata'
  }
