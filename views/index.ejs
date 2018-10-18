@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-  <title>Team 41</title>
-  <link rel="shortcut icon" href="assets/favicon.ico" />
-
-  <!-- CSS Imports -->
-  <link href="../node_modules/materialize-css/dist/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-  <!-- Google Imports -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Montserrat|Nunito|Nunito+Sans|Pacifico|Quicksand|Rubik|Kavoon" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Trirong|Eczar|Gentium Basic" rel="stylesheet">
-
-</head>
+<% include ./head.ejs %>
 <body>
   <nav class="white" role="navigation">
 
@@ -60,10 +42,10 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center"><i class="material-icons">lightbulb_outline</i></h2>
-            <h5 class="center">This is a project</h5>
+            <h2 class="center"><i class="material-icons">flip</i></h2>
+            <h5 class="center">Project Abstract</h5>
 
-            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus.</p>
+            <p class="light">Image processing of scans, 3d scanning and ML around medical imaging and networked medical collaboration and communications for clinical experts</p>
           </div>
         </div>
 
@@ -119,54 +101,5 @@
     <div class="parallax"><img src="assets/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <!-- Credits Footer -->
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Who are we?</h5>
-          <p class="grey-text text-lighten-4">We are 3 UCL computer scientists interested in projects advancing education in the computer science space.</p>
-        </div>
 
-        <div class="col l3 s12">
-        </div>
-
-        <div class="col l3 s12">
-          <h5 class="white-text">See our work</h5>
-          <ul>
-            <li><a class="white-text" href="http://github.com/adamnpeace"><i class="material-icons" style="font-size: 18px">link</i> Adam Peace</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Copyright Footer -->
-    <div class="footer-copyright">
-      <div class="container">
-        In collaboration with:
-      <img style="height: 2em; vertical-align:middle"src="../assets/nhs.png">
-      <img style="height: 2em; vertical-align:middle"src="../assets/ucl.png">
-      </div>
-    </div>
-  </footer>
-
-  <!-- Import Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-  <script src="../node_modules/materialize-css/dist/js/materialize.js"></script>
-
-  <!-- animation imports -->
-  <script src="../node_modules/three/build/three.min.js"></script>
-  <script src="../node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
-  <script src="../node_modules/three/examples/js/WebGL.js"></script>
-  <script src="../node_modules/three/examples/js/libs/stats.min.js"></script>
-
-
-  <!-- Import local JS -->
-  <script src="../js/init.js"></script>
-  <!-- Import local 3D JS -->
-  <script src="./js/ani_cube.js"></script>
-
-  </body>
-</html>
+<% include ./footer.ejs %>
