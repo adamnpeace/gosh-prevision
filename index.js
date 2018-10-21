@@ -10,7 +10,12 @@ const cookieParser = require('cookie-parser')
 const session = require('express-session')
 const helmet = require('helmet')
 const methodOverride = require('method-override')
+const http = require('http')
 
+var http = require("http");
+setInterval(function() {
+    http.get("http://gosh-17.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
 
 // Set templating language
 app.set('view engine', 'ejs')
