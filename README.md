@@ -1,2 +1,2 @@
-# gosh-20
-GOSH Prevision Exercise for COMP0016 - Team 20
+# GOSH DRIVE Prevision Project
+GOSH Prevision Exercise for COMP0016 - Team 17
