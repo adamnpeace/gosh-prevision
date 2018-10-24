@@ -42,6 +42,3 @@ if (port == null || port == "") {
 app.listen(port, function () {
 	console.log('Server running at http://localhost:'+port)
 })
-
-
-h
