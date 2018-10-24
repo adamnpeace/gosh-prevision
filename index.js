@@ -23,7 +23,7 @@ app.use('/', express.static(__dirname))
 // Set routes
 const index = require('./routes/index')
 
-app.use('/', index)
+app.use('/', index) // this is a comment
 
 app.use((req, res, next) => {
   res.status(404).send("Turn around now! Nothing exists under this URL")
@@ -44,4 +44,3 @@ app.listen(port, function () {
 })
 
 
-hello
