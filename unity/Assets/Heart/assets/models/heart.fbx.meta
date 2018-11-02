@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: fd6b040b29906ba469c05d0765968bcb
+timeCreated: 1448293834
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.001_end
+    100008: Bone.002
+    100010: Bone.002_end
+    100012: Bone.003
+    100014: Bone.003_end
+    100016: Bone.004
+    100018: Bone.004_end
+    100020: Bone.005
+    100022: Bone.005_end
+    100024: Bone.006
+    100026: Bone.006_end
+    100028: Bone.007
+    100030: Bone.007_end
+    100032: Bone.008
+    100034: Bone.008_end
+    100036: //RootNode
+    100038: heart_LOD0
+    100040: heart_LOD1
+    100042: heart_LOD2
+    100044: heart_LOD3
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.001_end
+    400008: Bone.002
+    400010: Bone.002_end
+    400012: Bone.003
+    400014: Bone.003_end
+    400016: Bone.004
+    400018: Bone.004_end
+    400020: Bone.005
+    400022: Bone.005_end
+    400024: Bone.006
+    400026: Bone.006_end
+    400028: Bone.007
+    400030: Bone.007_end
+    400032: Bone.008
+    400034: Bone.008_end
+    400036: //RootNode
+    400038: heart_LOD0
+    400040: heart_LOD1
+    400042: heart_LOD2
+    400044: heart_LOD3
+    4300000: heart_LOD3
+    4300002: heart_LOD2
+    4300004: heart_LOD1
+    4300006: heart_LOD0
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Base
+    7400004: Armature|Pumping
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: heart_LOD0
+    13700002: heart_LOD1
+    13700004: heart_LOD2
+    13700006: heart_LOD3
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Pumping
+      takeName: Armature|Pumping
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.006/Bone.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.008/Bone.008_end
+        weight: 1
+      - path: heart_LOD0
+        weight: 1
+      - path: heart_LOD1
+        weight: 1
+      - path: heart_LOD2
+        weight: 1
+      - path: heart_LOD3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Base
+      takeName: Armature|Base
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.006/Bone.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.008/Bone.008_end
+        weight: 1
+      - path: heart_LOD0
+        weight: 1
+      - path: heart_LOD1
+        weight: 1
+      - path: heart_LOD2
+        weight: 1
+      - path: heart_LOD3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .125
+    - .0625
+    - .00999999978
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

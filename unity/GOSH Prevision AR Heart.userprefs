@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LeanTouch\Examples\Scripts\LeanRotate.cs">
+    <Files>
+      <File FileName="Assets\LeanTouch\Scripts\LeanFinger.cs" Line="1" Column="1" />
+      <File FileName="Assets\LeanTouch\Examples\Scripts\LeanScale.cs" Line="106" Column="4" />
+      <File FileName="Assets\LeanTouch\Examples\Scripts\LeanRotate.cs" Line="136" Column="67" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
