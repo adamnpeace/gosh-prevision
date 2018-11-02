@@ -1,6 +1,7 @@
 # GOSH DRIVE Prevision Project
 GOSH Prevision Exercise for COMP0016 - Team 17
 
+
 **Team members:**
 
  - Adam Peace 
@@ -11,3 +12,5 @@ GOSH Prevision Exercise for COMP0016 - Team 17
  - Rudraksh Shankaran 
  - Vladislav Repinskiy 
  - Yiota Krashia
+
+To run: Import files in '/unity' into Unity and export to correct device
