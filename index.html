@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Heart 3D demo</title>
-    <meta name="description" content="Heart 3D demo">
+    <meta name="description" content="Heart 3D demo" />
     <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
-      <a-gltf-model position="0 1.25 -10" scale="0.005 0.005 0.005" src="heart/scene.gltf"></a-gltf-model>
-      <a-sky color="#000000"></a-sky>
+      <a-gltf-model
+        position="0 -2 -5"
+        scale="0.005 0.005 0.005"
+        src="heart/scene.gltf"
+      ></a-gltf-model>
+      <a-sky src="background.jpg" rotation="0 -170 0"></a-sky>
     </a-scene>
   </body>
-
-
 </html>
